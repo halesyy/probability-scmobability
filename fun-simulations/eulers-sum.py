@@ -4,6 +4,17 @@ from random import random
 """
 Get eulers number, using a monte-carlo-like
 method. Wrap your head around this.
+
+Eulers is the conception that something small
+will extrapolate to infinite, but it does quite
+the opposite. It spreads its wings, then falls
+on 2.718 and so-forth.
+
+Compare how E relates to everything.
+36% is roughly 1/e.
+
+The closer to E, the larger maximization
+is possible given a division.
 """
 def sum_to():
     total, iters = 0, 0
