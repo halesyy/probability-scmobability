@@ -13,12 +13,11 @@ def sample():
         moves += 1
         if start[0] == 0 and start[1] == 0:
             break
-        if moves > 10000: # breakout
+        if moves > 5000: # breakout
             return (False, False)
     # return given a while break
     return (moves, history)
 
-# moves, history = sample()
 res = [sample()[0] for _ in range(100000)]
 res = [r for r in res if r != False]
 
